@@ -1,0 +1,113 @@
+.background{
+    /* background-image: url('../../Images/loginBg.png'); */
+    background-size: cover;
+    height: 100vh;
+    padding-left: 5%;
+    font-family: "Poppins";
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+.header1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 10%;
+}
+.h1{
+    font-weight: 600;
+}
+.back{
+    color: #a8a7a7;
+    padding-top: 2%;
+    text-decoration: none;
+}
+.back:hover{
+    color:#2bbc1e
+}
+.input{
+    margin-bottom: 5%;
+    padding: 3.5%;
+    width: 100%;
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.loginButton{
+    width: 100%;
+    padding:3.5%;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#168879,#045a2f);
+        color: white;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form{
+    padding-top: 5%;
+}
+.color{
+    color:#2bbc1e;
+    text-decoration: none;
+}
+.color:hover{
+    color:#2bbc1e;
+}
+.greyText{
+    color: #a8a7a7;
+}
+
+.image1{
+   margin-left: 25%;
+   margin-top: 10%;
+   position: relative;
+animation: bounce-float 10s linear infinite;
+-webkit-animation: bounce-float 10s linear infinite;
+animation-iteration-count: 100;
+
+}
+.div{
+width: 100px;
+height: 100px;
+position: relative;
+animation: bounce-float 10s linear infinite;
+-webkit-animation: bounce-float 10s linear infinite;
+animation-iteration-count: 50;
+
+}
+@keyframes bounce-float{
+    0%{transform:translatey(0)}
+    50%{transform:translatey(-75px)}
+    100%{transform:translatey(0)}}
+    @-webkit-keyframes bounce-float{
+        0%{transform:translatey(0)}
+        50%{transform:translatey(-75px)}
+        100%{transform:translatey(0)}}
+    @-moz-keyframes bounce-float{
+        0%{transform:translatey(0)}
+        50%{transform:translatey(-75px)}
+        100%{transform:translatey(0)}}
+    @-ms-keyframes bounce-float{
+        0%{transform:translatey(0)}
+        50%{transform:translatey(-75px)}
+        100%{transform:translatey(0)}}
+    @-o-keyframes bounce-float{
+        0%{transform:translatey(0)}
+        50%{transform:translatey(-75px)}
+        100%{transform:translatey(0)}}
+/* @keyframes bounce-float {
+    0%   {left: 50px;}
+    25%  {left: 10px;}
+    75%  {left: 150px}
+    100% {left: 200px;}
+  } */
+
+  @media only screen and (max-width: 767px) and (min-width: 300px) {
+  .input{
+      width:90%;
+  }
+  .loginButton{
+      width: 90%;
+  }
+}
