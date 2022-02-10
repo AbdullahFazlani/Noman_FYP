@@ -67,6 +67,34 @@ animation: bounce-float 10s linear infinite;
 animation-iteration-count: 100;
 
 }
+.btn1{
+  
+    text-decoration: none;
+   border-bottom:none;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+  
+}
+.btn2{
+    
+    text-decoration: none;
+   color:  #1ebc26;
+   background-color: white;
+   border-bottom:2px solid green;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   font-size: 30px;
+   text-align: center;
+   width: 50%;
+  
+}
+
 .div{
 width: 100px;
 height: 100px;

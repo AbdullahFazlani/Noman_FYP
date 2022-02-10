@@ -9,7 +9,7 @@
 .header1{
     font-size: 1.3rem;
     font-weight: 600;
-    padding-top: 20%;
+    padding-top: 5%;
 }
 
 .input{
@@ -53,6 +53,8 @@
 .back:hover{
     color: #43bc1e;
 }
+
+
 .image1{
    margin-left: 25%;
    margin-top: 10%;
@@ -70,6 +72,35 @@ animation-iteration-count: 100;
     text-decoration: none;
     color: #1ebc40;
 }
+.btn1{
+  
+    text-decoration: none;
+   border-bottom:none;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+  
+}
+.btn2{
+    
+    text-decoration: none;
+   color:  #1ebc26;
+   background-color: white;
+   border-bottom:2px solid green;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   font-size: 30px;
+   text-align: center;
+   width: 50%;
+  
+}
+
+
 @keyframes bounce-float{
     0%{transform:translatex(0)}
     50%{transform:translatex(-75px)}
