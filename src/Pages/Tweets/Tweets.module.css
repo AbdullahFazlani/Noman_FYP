@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+   
+    margin-top: 2%;
+}
+
+.firstTile{
+    height: 15vh;
+    color: green;
+    width: 100%;
+    background-color:rgb(56, 218, 56);
+    margin: 1%;
+}
+.secondTile{
+    height: 15vh;
+    color: green;
+    width: 100%;
+    background-color:#FC8E23;
+    margin: 1%;
+}
+.thirdTile{
+    height: 15vh;
+    color: green;
+    width: 100%;
+    background-color:#EF3E36;   
+    margin: 1%;
+}
+.logo{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    height: 15vh;
+    
+}
+.tileContent{
+    /* align-items: center; */
+    color: white;
+    float: right;
+    padding-right: 3rem;
+}
+
+.tileContent h2{
+    float: right;
+    margin-top: 7%;
+}
+

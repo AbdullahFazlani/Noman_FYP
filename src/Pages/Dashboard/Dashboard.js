@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styles from "./Dashboard.module.css";
 import { FiLogOut, MdLogout } from "react-icons/md";
 import { Col, Container, Row } from "react-bootstrap";
+import Tweets from "../Tweets/Tweets";
+import Signal from "../Signal/Signal";
 
 const Dashboard = () => {
   const [dashboard, setDashboard] = useState(true);
@@ -98,8 +100,8 @@ const Dashboard = () => {
               </button>
             </Col>
             <Col md={9}>
-                {dashboard && <div>Dashboard</div>}
-                {signal && <div>Signal</div>}
+                {dashboard &&<Tweets/>}
+                {signal && <Signal/>}
                 {sentiment && <div>Sentiments</div>}
                 {request && <div>Request</div>}
                 {report && <div>Report</div>}
